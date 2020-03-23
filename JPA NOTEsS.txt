@@ -1,0 +1,45 @@
+****Q1>what is jpa?
+
+-->jpa stands for java persistance API.
+   its a API specification of java which is used to for data persistancy.
+   So to persist data between java object and relational databases,
+   JPA does not perform any operation on its own, insted it uses ORM tools
+   like Hibernate,Toplink,iBatis.
+
+
+*****what is ORM.?
+
+-->it is a functionality that used to develop and maintain a
+ relationship between objects and relational databases by mapping
+ object states into databases.
+
+****what is JPA Entity ?
+
+JPA entity is nothing but a application specific object which has states and behaviohur.
+Following  properties an a JPA object must have.
+
+1> Persistability       -  object is persistance if it can be stored and access from database at any time.
+
+2> Persistent Identity  -  each entity is unique and represents as an object identity.
+                           And when this identity is stored in the databases it is 
+                           equivalent to primary key.
+
+3>Transactionality	-  Entity can perform various operations such as create, delete, update.
+			   Transactionality  ensures that whatever changes made in the database either 
+			   be succeed or failed atomically.
+
+4>Granuality  		-  Entities should not be primitives, primitive wrappers or built-in objects
+			   with single dimensional state.
+
+
+****Entity MetaDeta******
+each entity have its metadeta which have information about the identity which instead in database is
+inside the class or outside the class,which is represented either annotation or in XML files.
+1> Annotations - this are the special tags which represent the meta deta inside the class.
+2> XML	       - it keeps the track of metadeta of the entity outside the class in the xml files.
+
+
+****Hoew to crate a Entity.?
+
+
+
