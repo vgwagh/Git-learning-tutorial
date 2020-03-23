@@ -1,2 +1,4 @@
 hey vasudha!
 what's up have started with git?
+
+tutorials on JPA has been added in a text file.
